@@ -6,7 +6,7 @@ import random
 import re
 import sys
 
-
+# Creation of hourglass-shaped sums
 def get_sum(matrix, row, col):
     sum = 0
     sum += matrix[row-1][col-1]
